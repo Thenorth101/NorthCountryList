@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface CountryApi {
 
-    @GET("https://thenorth101.github.io/northcountryapi/country_list.json")
+    @GET("country_list.json")
     suspend fun getCountries(): Response<List<Country>>
 }

@@ -7,9 +7,11 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.northcountrylist.model.Country
 import com.example.northcountrylist.model.repositories.CountryRepository
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
+@HiltViewModel
 class MainActivityViewModel @Inject constructor(private val repository: CountryRepository): ViewModel() {
 
     val _country = MutableLiveData<List<Country>>()
