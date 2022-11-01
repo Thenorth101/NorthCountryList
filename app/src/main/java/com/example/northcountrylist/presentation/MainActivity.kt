@@ -1,12 +1,10 @@
-package com.example.northcountrylist
+package com.example.northcountrylist.presentation
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.northcountrylist.databinding.ActivityMainBinding
-import com.example.northcountrylist.presentation.CountryAdapter
-import com.example.northcountrylist.presentation.MainActivityViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

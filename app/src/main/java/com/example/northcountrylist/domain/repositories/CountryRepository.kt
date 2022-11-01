@@ -1,4 +1,4 @@
-package com.example.northcountrylist.model.repositories
+package com.example.northcountrylist.domain.repositories
 
 import com.example.northcountrylist.data.request.CountryApi
 import javax.inject.Inject
