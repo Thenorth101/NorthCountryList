@@ -1,6 +1,5 @@
 package com.example.northcountrylist.data.di
 
-import androidx.annotation.RestrictTo
 import com.example.northcountrylist.core.Constants.BASE_URL
 import com.example.northcountrylist.data.request.CountryApi
 import dagger.Module

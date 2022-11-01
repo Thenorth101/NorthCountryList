@@ -1,6 +1,6 @@
 package com.example.northcountrylist.data.request
 
-import com.example.northcountrylist.model.Country
+import com.example.northcountrylist.data.response.Country
 import retrofit2.Response
 import retrofit2.http.GET
 
